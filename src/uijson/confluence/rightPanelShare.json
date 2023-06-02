@@ -1,0 +1,24 @@
+{
+    "callback_type": "attachments.share.channel",
+    "attachments": [
+        {
+            "state": "string",
+            "header": {
+                "app_id": "23042006425107XW842H",
+                "title": "",
+                "subtitle": ""
+            },
+            "body": {
+                "elements": [
+                    {
+                        "type": "info_card",
+                        "draggable": false,
+                        "items": []
+                    }
+                ]
+            },
+            "footer": {
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "hubspot-login-open",
+        "header": {
+          "title": "Please login to HubSpot account",
+          "buttons": [
+            {
+              "type": "button",
+              "icon": {
+                "type": "image",
+                "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+                "alt": "Header button icon"
+              },
+              "static_action": {
+                "action_type": "open_link",
+                "link_url": "https://hubspot.com"
+              }
+            }
+          ]
+        },
+        "body": {
+          "elements": [
+            {
+              "type": "button",
+              "label": "Login With HubSpot",
+              "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+              "static_action": {
+                "action_type": "open_oauth_popup",
+                "link_url": "https://swtio-bck-dev.dvconsulting.org/swit-hubspot-auth-user"
+              },
+              "style": "primary_filled"
+            }
+          ]
+        }
+      }
+}

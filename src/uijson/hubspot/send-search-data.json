@@ -1,0 +1,46 @@
+{
+  "callback_type": "attachments.share.channel",
+  "attachments": [
+      {
+          "state": "string",
+          "header": {
+              "app_id": "23041110182199CZIGF9",
+              "title": "",
+              "subtitle": "",
+              "buttons": [
+                  {
+                      "type": "button",
+                      "icon": {
+                          "type": "image",
+                          "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/Hubspot-icon_rounded.svg",
+                          "alt": "Header button icon",
+                          "shape": "rectangular"
+                      },
+                      "static_action": {
+                          "action_type": "open_link",
+                          "link_url": "https://hubspot.com"
+                      }
+                  }
+              ]
+          },
+          "body": {
+              "elements": [
+                  {
+                      "type": "info_card",
+                      "draggable": false,
+                      "items": [
+                          {
+                              "label": "key",
+                              "text": {
+                                  "type": "text",
+                                  "markdown": false,
+                                  "content": "value"
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  ]
+}

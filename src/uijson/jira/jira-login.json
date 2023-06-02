@@ -1,0 +1,25 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "jira-login-open",
+        "header": {
+            "title": "Please login to connect Jira app!",
+            "buttons": [
+            ]
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "button",
+                    "label": "Login With Jira",
+                    "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+                    "static_action": {
+                        "action_type": "open_oauth_popup",
+                        "link_url": "https://swtio-bck-dev.dvconsulting.org/swit-auth-user"
+                    },
+                    "style": "primary_filled"
+                }
+            ]
+        }
+    }
+}

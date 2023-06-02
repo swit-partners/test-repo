@@ -1,0 +1,69 @@
+{
+    "callback_type": "views.initialize",
+    "new_view": {
+      "view_id": "builder_test",
+      "header": {
+        "title": "HubSpot",
+        "context_menu": [
+          {
+            "type": "button",
+            "label": "Logout",
+            "action_id": "logout-hubspot-app",
+            "style": "primary_filled"
+          }
+        ],
+        "buttons": [
+          {
+            "type": "button",
+            "action_id": "refresh-hubspot-list",
+            "icon": {
+              "type": "image",
+              "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/reset.png",
+              "alt": "Header button icon"
+            }
+          }
+        ]
+      },
+      "body": {
+        "elements": [
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Feature List"
+          },
+          {
+            "type": "select",
+            "placeholder": "Select a feature",
+            "multiselect": false,
+            "trigger_on_input": true,
+            "options": [
+              {
+                "label": "Contact List",
+                "action_id": "contact_list"
+              },
+              {
+                "label": "Company List",
+                "action_id": "company_list"
+              },
+              {
+                "label": "Ticket List",
+                "action_id": "ticket_list"
+              },
+              {
+                "label": "Task List",
+                "action_id": "task_list"
+              },
+              {
+                "label": "Deal List",
+                "action_id": "deal_list"
+              },
+              {
+                "label": "Marketing Email List",
+                "action_id": "memail_list"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

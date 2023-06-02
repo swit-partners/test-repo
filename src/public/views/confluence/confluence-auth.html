@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <script>
+        window.location.replace('https://auth.atlassian.com/authorize?audience=api.atlassian.com&client_id=sq0r7mofdhD7N6zmE9X5ad2wayULDocE&scope=read%3Acontent%3Aconfluence%20write%3Acontent%3Aconfluence%20read%3Acontent-details%3Aconfluence%20read%3Aspace-details%3Aconfluence%20delete%3Acontent%3Aconfluence%20read%3Aaudit-log%3Aconfluence%20write%3Aaudit-log%3Aconfluence%20read%3Apage%3Aconfluence%20write%3Apage%3Aconfluence%20delete%3Apage%3Aconfluence%20read%3Aattachment%3Aconfluence%20write%3Aattachment%3Aconfluence%20delete%3Aattachment%3Aconfluence%20read%3Ablogpost%3Aconfluence%20write%3Ablogpost%3Aconfluence%20delete%3Ablogpost%3Aconfluence%20read%3Acustom-content%3Aconfluence%20write%3Acustom-content%3Aconfluence%20delete%3Acustom-content%3Aconfluence%20read%3Acomment%3Aconfluence%20write%3Acomment%3Aconfluence%20delete%3Acomment%3Aconfluence%20read%3Atemplate%3Aconfluence%20write%3Atemplate%3Aconfluence%20read%3Alabel%3Aconfluence%20write%3Alabel%3Aconfluence%20read%3Awatcher%3Aconfluence%20write%3Awatcher%3Aconfluence%20read%3Agroup%3Aconfluence%20write%3Agroup%3Aconfluence%20read%3Arelation%3Aconfluence%20write%3Arelation%3Aconfluence%20read%3Auser%3Aconfluence%20read%3Aconfiguration%3Aconfluence%20write%3Aconfiguration%3Aconfluence%20read%3Aspace%3Aconfluence%20write%3Aspace%3Aconfluence%20delete%3Aspace%3Aconfluence%20read%3Aspace.permission%3Aconfluence%20write%3Aspace.permission%3Aconfluence%20read%3Aspace.property%3Aconfluence%20write%3Aspace.property%3Aconfluence%20read%3Auser.property%3Aconfluence%20write%3Auser.property%3Aconfluence%20read%3Aspace.setting%3Aconfluence%20write%3Aspace.setting%3Aconfluence%20read%3Aanalytics.content%3Aconfluence%20read%3Acontent.permission%3Aconfluence%20read%3Acontent.property%3Aconfluence%20write%3Acontent.property%3Aconfluence%20read%3Acontent.restriction%3Aconfluence%20write%3Acontent.restriction%3Aconfluence%20read%3Acontent.metadata%3Aconfluence%20read%3Ainlinetask%3Aconfluence%20write%3Ainlinetask%3Aconfluence%20read%3Atask%3Aconfluence%20write%3Atask%3Aconfluence%20read%3Apermission%3Aconfluence offline_access&redirect_uri=https%3A%2F%2Fswtio-bck-dev.dvconsulting.org%2Fconfluence-auth-proceed&state=<%=user_id%>&response_type=code&prompt=consent');
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="body d-md-flex align-items-center justify-content-between">
+            <div class="box-1 mt-md-0 mt-5">
+                <img src="https://sada.com/wp-content/uploads/2023/02/Swit.png" class="" alt="">
+                <span class="glyphicon glyphicon-plus"></span>
+                <img src="https://swtio-bck-dev.dvconsulting.org/assets/image/confluenceLogo.jpg">
+            </div>
+            <div class=" box-2 d-flex flex-column h-100">
+                <div class="mt-5">
+                    <p class="mb-1 h-1">Login confluence</p>
+                    <p class="text-muted mb-2">Please login with confluence cloud to proceed integration</p>
+                    <div class="d-flex flex-column ">
+                        <p class="text-muted mb-2">Authenticate Now...</p>
+                        <div style="margin-top: 10%;">
+                            <a href="https://auth.atlassian.com/authorize?audience=api.atlassian.com&client_id=sq0r7mofdhD7N6zmE9X5ad2wayULDocE&scope=read%3Acontent%3Aconfluence%20write%3Acontent%3Aconfluence%20read%3Acontent-details%3Aconfluence%20read%3Aspace-details%3Aconfluence%20delete%3Acontent%3Aconfluence%20read%3Aaudit-log%3Aconfluence%20write%3Aaudit-log%3Aconfluence%20read%3Apage%3Aconfluence%20write%3Apage%3Aconfluence%20delete%3Apage%3Aconfluence%20read%3Aattachment%3Aconfluence%20write%3Aattachment%3Aconfluence%20delete%3Aattachment%3Aconfluence%20read%3Ablogpost%3Aconfluence%20write%3Ablogpost%3Aconfluence%20delete%3Ablogpost%3Aconfluence%20read%3Acustom-content%3Aconfluence%20write%3Acustom-content%3Aconfluence%20delete%3Acustom-content%3Aconfluence%20read%3Acomment%3Aconfluence%20write%3Acomment%3Aconfluence%20delete%3Acomment%3Aconfluence%20read%3Atemplate%3Aconfluence%20write%3Atemplate%3Aconfluence%20read%3Alabel%3Aconfluence%20write%3Alabel%3Aconfluence%20read%3Awatcher%3Aconfluence%20write%3Awatcher%3Aconfluence%20read%3Agroup%3Aconfluence%20write%3Agroup%3Aconfluence%20read%3Arelation%3Aconfluence%20write%3Arelation%3Aconfluence%20read%3Auser%3Aconfluence%20read%3Aconfiguration%3Aconfluence%20write%3Aconfiguration%3Aconfluence%20read%3Aspace%3Aconfluence%20write%3Aspace%3Aconfluence%20delete%3Aspace%3Aconfluence%20read%3Aspace.permission%3Aconfluence%20write%3Aspace.permission%3Aconfluence%20read%3Aspace.property%3Aconfluence%20write%3Aspace.property%3Aconfluence%20read%3Auser.property%3Aconfluence%20write%3Auser.property%3Aconfluence%20read%3Aspace.setting%3Aconfluence%20write%3Aspace.setting%3Aconfluence%20read%3Aanalytics.content%3Aconfluence%20read%3Acontent.permission%3Aconfluence%20read%3Acontent.property%3Aconfluence%20write%3Acontent.property%3Aconfluence%20read%3Acontent.restriction%3Aconfluence%20write%3Acontent.restriction%3Aconfluence%20read%3Acontent.metadata%3Aconfluence%20read%3Ainlinetask%3Aconfluence%20write%3Ainlinetask%3Aconfluence%20read%3Atask%3Aconfluence%20write%3Atask%3Aconfluence%20read%3Apermission%3Aconfluence offline_access&redirect_uri=https%3A%2F%2Fswtio-bck-dev.dvconsulting.org%2Fconfluence-auth-proceed&state=<%=user_id%>&response_type=code&prompt=consent" class="box me-2 selectio">
+                                <button type="button" class="btn btn-primary btn-lg btn-block" id="confluence_app_login">Login with confluence</button></a>
+                            <!-- <a href="https://auth.atlassian.com/authorize?audience=api.atlassian.com&client_id=kDGv39IRi75UHaBMg1MsFsqGO69aZjX8&scope=write%3Aconfluence-content%20read%3Aconfluence-space.summary%20write%3Aconfluence-space%20write%3Aconfluence-file%20read%3Aconfluence-props%20write%3Aconfluence-props%20manage%3Aconfluence-configuration%20read%3Aconfluence-content.all%20readonly%3Acontent.attachment%3Aconfluence%20write%3Aconfluence-groups%20read%3Aconfluence-groups%20read%3Aconfluence-user%20read%3Aconfluence-content.permission%20search%3Aconfluence%20read%3Aconfluence-content.summary offline_access&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fconfluence-auth-proceed&state=<%=user_id%>&response_type=code&prompt=consent" class="box me-2 selectio">
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Login with confluence</button>
+                            </a> -->
+
+                            <!-- local settings -->
+                            <!-- <a href="https://auth.atlassian.com/authorize?audience=api.atlassian.com&client_id=xBjrRgfBAJtVY0VK25EJERQThLOR1TSg&scope=manage%3Ajira-configuration%20read%3Ajira-user%20write%3Ajira-work%20manage%3Ajira-webhook%20manage%3Ajira-data-provider%20read%3Ajira-work%20manage%3Ajira-project&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fjira-auth-proceed&state=${YOUR_USER_BOUND_VALUE}&response_type=code&prompt=consent" class="box me-2 selectio">
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Login with Jira</button>
+                            </a> -->
+                         
+                    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <span class="fas fa-times"></span>
+            
+        </div>
+    </div>
+    <script>
+        var hangoutButton = document.getElementById("confluence_app_login");
+        hangoutButton.click(); 
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif
+        }
+
+        .container {
+            margin: 50px auto;
+        }
+
+        .body {
+            position: relative;
+            width: 720px;
+            height: 440px;
+            margin: 20px auto;
+            border: 1px solid #dddd;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .box-1 img {
+            width: 100%;
+            height: 47%;
+            object-fit: cover;
+        }
+
+        .box-2 {
+            border-left: 1px solid #f1f1f1;
+                padding: 18px;
+        }
+
+        .box-1,
+        .box-2 {
+            width: 50%;
+        }
+
+        .h-1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .text-muted {
+            font-size: 14px;
+        }
+
+
+       
+
+        .footer.text-muted {
+            font-size: 10px;
+        }
+
+        .fas.fa-times {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: #f3cff379;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fas.fa-times:hover {
+            color: #ff0000;
+        }
+
+        @media (max-width:767px) {
+            body {
+                padding: 10px;
+            }
+
+            .body {
+                width: 100%;
+                height: 100%;
+            }
+
+            .box-1 {
+                width: 100%;
+            }
+
+            .box-2 {
+                width: 100%;
+                height: 440px;
+              
+            }
+        }
+    </style>
+</body>
+
+</html>

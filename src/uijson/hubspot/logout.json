@@ -1,0 +1,37 @@
+{
+    "callback_type":"views.open",
+    "new_view":{
+      "view_id": "logout",
+      "header": {
+          "title": "Please confirm!"
+      },
+      "body": {
+          "elements": [
+              {
+                  "type": "text",
+                  "markdown": false,
+                  "content": "Are you sure you want to logout your HubSpot app ?"
+              }
+          ]
+      },
+      "footer": {
+          "buttons": [
+            {
+              "type": "button",
+              "label": "Close",
+              "style": "primary",
+              "action_id": "No",
+              "static_action": {
+                "action_type": "close_view"
+              }
+            },
+            {
+              "type": "button",
+              "label": "Confirm",
+              "style": "primary_filled",
+              "action_id": "Yes"
+            }
+          ]
+        }
+  }
+}

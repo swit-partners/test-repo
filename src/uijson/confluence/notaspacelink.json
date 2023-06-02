@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "notaspacelink",
+        "header": {
+            "title": "Connect a space"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "That link is not a space.Try the option to connect to a page"
+                }
+            ]
+        }
+    }
+}

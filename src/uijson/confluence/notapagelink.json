@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "notapagelink",
+        "header": {
+            "title": "Connect a page"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "That link is not a page.Try the option to connect to a space"
+                }
+            ]
+        }
+    }
+}

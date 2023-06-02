@@ -1,0 +1,13 @@
+{
+  "callback_type": "views.open",
+  "new_view": {
+    "view_id": "confluence_subscription_edit_space",
+    "header": {
+      "title": "Manage Connection",
+      "subtitle": " "
+    },
+    "body": {
+      "elements": []
+    }
+  }
+}

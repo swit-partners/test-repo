@@ -1,0 +1,36 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "notifications",
+        "header": {
+            "title": "Manage Notifications"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": true,
+                    "content": "Notifications are On/Off"
+                  }
+            ]
+        },
+        "footer": {
+            "buttons": [
+                {
+                    "type": "button",
+                    "label": "Close",
+                    "style": "primary",
+                    "static_action": {
+                        "action_type": "close_view"
+                    }
+                },
+                {
+                    "type": "button",
+                    "label": "Turn On/Off",
+                    "style": "primary_filled",
+                    "action_id": "Notification Button-action_id"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "callback_type": "views.initialize",
+    "new_view": {
+      "view_id": "right_panel_list",
+      "header": {
+        "title": "Jira App"
+      },
+      "body": {
+        "elements": [
+          {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/blank.png",
+            "alt": "image test"
+          },
+          {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/jira-right-panel.png",
+            "alt": "image test"
+          },
+          {
+            "type": "button",
+            "label": "Sign in to Jira",
+            "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+            "style": "primary_filled",
+            "static_action": {
+                "action_type": "open_oauth_popup",
+                "link_url": "https://swtio-bck-dev.dvconsulting.org/swit-auth-user"
+            }
+          }
+        ]
+      }
+    }
+  }

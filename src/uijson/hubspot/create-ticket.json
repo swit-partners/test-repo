@@ -1,0 +1,99 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "builder_test",
+        "header": {
+          "title": "Create Ticket",
+          "subtitle": "Required fields *",
+          "buttons": [
+            {
+              "type": "button",
+              "icon": {
+                "type": "image",
+                "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+                "alt": "Header button icon"
+              },
+              "static_action": {
+                "action_type": "open_link",
+                "link_url": "https://hubspot.com"
+              }
+            }
+          ]
+        },
+        "body": {
+          "elements": [
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Ticket Name *"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "Enter Ticket Name",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Priority *"
+            },
+            {
+              "type": "select",
+              "placeholder": "Select a priority",
+              "multiselect": false,
+              "trigger_on_input": false,
+              "options": [
+                {
+                  "label": "Low",
+                  "action_id": "LOW"
+                },
+                {
+                  "label": "Medium",
+                  "action_id": "MEDIUM"
+                },
+                {
+                  "label": "High",
+                  "action_id": "HIGH"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Task Status *"
+            },
+            {
+              "type": "select",
+              "placeholder": "Select task status",
+              "multiselect": false,
+              "trigger_on_input": false,
+              "options": [
+                {
+                  "label": "New",
+                  "action_id": "1"
+                },
+                {
+                  "label": "Waiting on contact",
+                  "action_id": "2"
+                },
+                {
+                  "label": "Waiting on us",
+                  "action_id": "3"
+                },
+                {
+                  "label": "Closed",
+                  "action_id": "4"
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "label": "Create Ticket",
+              "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+              "style": "primary_filled"
+            }
+          ]
+        }
+      }
+  }

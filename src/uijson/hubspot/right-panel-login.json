@@ -1,0 +1,33 @@
+{
+    "callback_type": "views.initialize",
+    "new_view": {
+      "view_id": "login_right_side",
+      "header": {
+        "title": "HubSpot"
+      },
+      "body": {
+        "elements": [
+          {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/blank.png",
+            "alt": "image test"
+          },
+          {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/hubspot_right_panel_login1.png",
+            "alt": "image test"
+          },
+          {
+            "type": "button",
+            "label": "Sign in to HubSpot",
+            "action_id": "right_panel_login",
+            "style": "primary_filled",
+            "static_action": {
+              "action_type": "open_oauth_popup",
+              "link_url": "https://swtio-bck-dev.dvconsulting.org/swit-hubspot-auth-user"
+            }
+          }
+        ]
+      }
+    }
+}

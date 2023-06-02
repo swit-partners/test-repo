@@ -1,0 +1,67 @@
+{
+  "callback_type": "views.open",
+  "new_view": {
+    "view_id": "confluence_subscription",
+    "header": {
+      "title": "Connect a page",
+      "subtitle": " "
+    },
+    "body": {
+      "elements": [
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Enter the URL of the page"
+        },
+        {
+          "type": "text_input",
+          "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+          "placeholder": "Enter url",
+          "trigger_on_input": false
+        },
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Send notification to the channel when someone..."
+        },
+        {
+          "type": "select",
+          "placeholder": "Select an item",
+          "multiselect": true,
+          "trigger_on_input": true,
+          "options": [
+            {
+              "label": "Edits this page",
+              "action_id": "main-page-update"
+            },
+            {
+              "label": "Comments on this page",
+              "action_id": "main-page-comment"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "elements": [
+            {
+              "type": "button",
+              "label": "Cancel",
+              "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+              "style": "primary_filled",
+              "static_action": {
+                "action_type": "close_view"
+              }
+            },
+            {
+              "type": "button",
+              "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+              "label": "Done",
+              "style": "primary_filled"
+                                    
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

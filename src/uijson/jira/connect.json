@@ -1,0 +1,83 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "jira_connect_form",
+        "header": {
+            "title": "Jira Connect",
+            "subtitle": "You will be notified by channel message from Jira Cloud",
+            "buttons": [
+                {
+                    "type": "button",
+                    "icon": {
+                        "type": "image",
+                        "image_url": "https://wac-cdn.atlassian.com/dam/jcr:50ec4e7f-6d95-4993-8dc2-3c521e66dfe8/jira-app-icon-1.svg?cdnVersion=997",
+                        "alt": "Header button icon"
+                    },
+                    "static_action": {
+                        "action_type": "open_link",
+                        "link_url": "https://swit.io"
+                    }
+                }
+            ]
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Select Jira Project"
+                },
+                {
+                    "type": "select",
+                    "placeholder": "Select an item",
+                    "multiselect": false,
+                    "trigger_on_input": false,
+                    "options": [
+                        {
+                            "label": "Option 1",
+                          
+                            "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+                        },
+                        {
+                            "label": "Option 2",
+                            "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839",
+                            "static_action": {
+                                "action_type": "open_link",
+                                "link_url": "https://swit.io"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "markdown": true,
+                    "content": "Select Swit channel for receiving notifications"
+                },
+                {
+                    "type": "select",
+                    "placeholder": "Select an item",
+                    "multiselect": false,
+                    "trigger_on_input": false,
+                    "options": [
+                        {
+                            "label": "Option 1",
+                            "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+                        },
+                        {
+                            "label": "Option 2",
+                            "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839"
+                        }
+                    ]
+                },
+
+                
+                {
+                    "type": "button",
+                    "label": "Connect",
+                    "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+                    "style": "primary_filled"
+                }
+            ]
+        }
+    }
+}

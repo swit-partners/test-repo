@@ -1,0 +1,21 @@
+{
+  "callback_type": "attachments.share.channel",
+  "attachments": [
+    {
+      "header": {
+        "app_id": "23042006425107XW842H",
+        "title": "Confluence",
+        "subtitle": ""
+      },
+        "body": {
+        "elements": []
+      },
+
+      "footer": {
+      "buttons": [
+        
+      ]
+     }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "confluence_subscription_connectspacepage",
+        "header": {
+            "title": "Confluence Cloud"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Connect a space or page to a channel"
+                },
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Keep the team informed of updates and comments right within team channels."
+                },{
+                    "type": "container",
+                    "elements": [
+                        {
+                        "type": "button",
+                        "label": "Connect Space",
+                        "action_id": "connect-space",
+                        "style": "primary_filled"
+                        },
+                        {
+                        "type": "button",
+                        "action_id": "connext-page",
+                        "label": "Connect Page",
+                        "style": "primary_filled"
+                                                
+                        }
+                    ]
+                }
+            
+            ]
+        }
+    }
+}

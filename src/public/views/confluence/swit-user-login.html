@@ -1,0 +1,40 @@
+<div style="text-align:center;">
+    <a id="myCheck" style="visibility:hidden"
+        href="https://openapi.swit.io/oauth/authorize?access_type=offline&client_id=U7gDcD0LhQGA0AjJoeV40RhEQedt98kB&hd=%2A&prompt=consent&redirect_uri=https%3A%2F%2Fswtio-bck-dev.dvconsulting.org%2Fset-swit-authcode&response_type=code&scope=project%3Aread+message%3Awrite+channel%3Awrite+message%3Aread+user%3Awrite+idea%3Aread+task%3Awrite+project%3Awrite+channel%3Aread+workspace%3Aread+workspace%3Awrite+idea%3Awrite+task%3Aread+user%3Aread">
+        <button>Authorize Swit User Update</button>
+
+    </a>
+</div>
+
+
+
+<!-- meet account link -->
+<!-- <div style="text-align:center;">
+    <a id="myCheck" style="visibility:hidden"
+        href="https://openapi.swit.io/oauth/authorize?access_type=offline&client_id=ugQ2nFkRn7CQ90LFRf2x0YDXVeYi2a6K&hd=%2A&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fset-auth-code&response_type=code&scope=admin%3Aread+admin%3Awrite+approval%3Aread+approval%3Awrite+channel%3Aread+channel%3Awrite+idea%3Aread+idea%3Awrite+message%3Aread+message%3Awrite+presence%3Aread+presence%3Awrite+project%3Aread+project%3Awrite+store%3Awrite+task%3Aread+task%3Awrite+user%3Aread+user%3Awrite+workspace%3Aread+workspace%3Awrite+app%3Ainstall">
+        <button>Authorize Swit User</button>
+    </a>
+</div> -->
+
+ <!--<div style="text-align:center;">
+    <a id="myCheck" style="visibility:hidden"
+        href="https://openapi.swit.io/oauth/authorize?access_type=offline&client_id=U7gDcD0LhQGA0AjJoeV40RhEQedt98kB&hd=%2A&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fset-swit-authcode&response_type=code&scope=admin%3Aread+admin%3Awrite+app%3Ainstall+approval%3Aread+approval%3Awrite+channel%3Aread+channel%3Awrite+idea%3Aread+idea%3Awrite+message%3Aread+message%3Awrite+presence%3Aread+presence%3Awrite+project%3Aread+project%3Awrite+store%3Awrite+task%3Aread+task%3Awrite+user%3Aread+user%3Awrite+workspace%3Aread+workspace%3Awrite">
+        <button>Authorize Swit User</button>
+    </a>
+</div> -->
+
+<script>
+
+
+
+    var url = new URL(window.location.href);
+    var close = url.searchParams.get("close");
+    console.log(close);
+    if (close) {
+        // open(location, '_self').close();
+    } else {
+        document.getElementById("myCheck").click();
+    }
+
+
+</script>

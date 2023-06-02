@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "checkdeletepermission",
+        "header": {
+            "title": "Delete a space or page"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "You don't have permission to delete this post"
+                }
+            ]
+        }
+    }
+}

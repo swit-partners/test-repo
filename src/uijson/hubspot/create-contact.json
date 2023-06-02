@@ -1,0 +1,101 @@
+{
+  "callback_type": "views.open",
+  "new_view": {
+    "view_id": "builder_test",
+    "header": {
+      "title": "Create Contact",
+      "subtitle": "Required fields *",
+      "buttons": [
+        {
+          "type": "button",
+          "icon": {
+            "type": "image",
+            "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+            "alt": "Header button icon"
+          },
+          "static_action": {
+            "action_type": "open_link",
+            "link_url": "https://www.hubspot.com"
+          }
+        }
+      ]
+    },
+    "body": {
+      "elements": [
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Select company *"
+        },
+        {
+          "type": "select",
+          "placeholder": "Select company",
+          "multiselect": false,
+          "trigger_on_input": false,
+          "options": []
+        },
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Email *"
+        },
+        {
+          "type": "text_input",
+          "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+          "placeholder": "Enter your email address",
+          "trigger_on_input": false
+        },
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "First Name"
+        },
+        {
+          "type": "text_input",
+          "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+          "placeholder": "Enter first name",
+          "trigger_on_input": false
+        },
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Last Name"
+        },
+        {
+          "type": "text_input",
+          "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+          "placeholder": "Enter last name",
+          "trigger_on_input": false
+        },
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Phone Number"
+        },
+        {
+          "type": "text_input",
+          "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+          "placeholder": "Enter your phone number",
+          "trigger_on_input": false
+        },
+        {
+          "type": "text",
+          "markdown": false,
+          "content": "Website"
+        },
+        {
+          "type": "text_input",
+          "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+          "placeholder": "Enter your company website url",
+          "trigger_on_input": false
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+          "style": "primary_filled"
+        }
+      ]
+    }
+  }
+}

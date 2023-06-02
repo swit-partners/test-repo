@@ -1,0 +1,66 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+      "view_id": "builder_test",
+      "header": {
+        "title": "Create Deal",
+        "subtitle": "Required fields *",
+        "buttons": [
+          {
+            "type": "button",
+            "icon": {
+              "type": "image",
+              "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+              "alt": "Header button icon"
+            },
+            "static_action": {
+              "action_type": "open_link",
+              "link_url": "https://hubspot.com"
+            }
+          }
+        ]
+      },
+      "body": {
+        "elements": [
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Deal Name *"
+          },
+          {
+            "type": "text_input",
+            "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+            "placeholder": "Enter deal name",
+            "trigger_on_input": false
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Amount ($)"
+          },
+          {
+            "type": "text_input",
+            "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+            "placeholder": "Enter amount",
+            "trigger_on_input": false
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Select Close Date"
+          },
+          {
+            "type": "datepicker",
+            "placeholder": "Date",
+            "action_id": "a60389c6-2517-4388-8f56-da1aaf9c7b28"
+          },
+          {
+            "type": "button",
+            "label": "Create Deal",
+            "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+            "style": "primary_filled"
+          }
+        ]
+      }
+    }
+  }

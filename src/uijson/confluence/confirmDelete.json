@@ -1,0 +1,33 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "confirmDelete",
+        "header": {
+            "title": "Delete this subscription?",
+            "subtitle": ""
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "container",
+                    "elements": [
+                        {
+                            "type": "button",
+                            "label": "Cancel",
+                            "style": "primary_filled",
+                            "static_action": {
+                                "action_type": "close_view"
+                            }
+                        },
+                        {
+                            "type": "button",
+                            "label": "Yes",
+                            "action_id": "confirmDelete",
+                            "style": "primary_filled"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

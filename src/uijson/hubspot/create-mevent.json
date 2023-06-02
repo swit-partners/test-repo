@@ -1,0 +1,851 @@
+{
+    "callback_type": "views.open",
+    "new_view":{
+        "view_id": "builder_test",
+        "header": {
+          "title": "Create Marketing Event",
+          "subtitle": "Add marketing event in your HubSpot account.",
+          "context_menu": [
+            {
+              "label": "Menu item 1",
+              "action_id": "2fc5573a-c439-4131-9c82-6ed78c1f1758"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "button",
+              "icon": {
+                "type": "image",
+                "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+                "alt": "Header button icon"
+              },
+              "static_action": {
+                "action_type": "open_link",
+                "link_url": "https://hubspot.com"
+              }
+            }
+          ]
+        },
+        "body": {
+          "elements": [
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter Event Name :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "Event Name",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter Event Type :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "Event Type",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Select Start Date & Time :"
+            },
+            {
+              "type": "container",
+              "elements": [
+                {
+                  "type": "select",
+                  "placeholder": "Select Hour",
+                  "multiselect": false,
+                  "trigger_on_input": false,
+                  "options": [
+                    {
+                      "label": "00",
+                      "action_id": "00"
+                    },
+                    {
+                      "label": "01",
+                      "action_id": "01"
+                    },
+                    {
+                      "label": "02",
+                      "action_id": "02"
+                    },
+                    {
+                        "label": "03",
+                        "action_id": "03"
+                    },
+                    {
+                        "label": "04",
+                        "action_id": "04"
+                    },
+                    {
+                        "label": "05",
+                        "action_id": "05"
+                    },
+                    {
+                        "label": "06",
+                        "action_id": "06"
+                    },
+                    {
+                        "label": "07",
+                        "action_id": "07"
+                    },
+                    {
+                        "label": "08",
+                        "action_id": "08"
+                    },
+                    {
+                        "label": "09",
+                        "action_id": "09"
+                    },
+                    {
+                        "label": "10",
+                        "action_id": "10"
+                    },
+                    {
+                        "label": "11",
+                        "action_id": "11"
+                    },
+                    {
+                        "label": "12",
+                        "action_id": "12"
+                    },
+                    {
+                        "label": "13",
+                        "action_id": "13"
+                    },
+                    {
+                        "label": "14",
+                        "action_id": "14"
+                    },
+                    {
+                        "label": "15",
+                        "action_id": "15"
+                    },
+                    {
+                        "label": "16",
+                        "action_id": "16"
+                    },
+                    {
+                        "label": "17",
+                        "action_id": "17"
+                    },
+                    {
+                        "label": "18",
+                        "action_id": "18"
+                    },
+                    {
+                        "label": "19",
+                        "action_id": "19"
+                    },
+                    {
+                        "label": "20",
+                        "action_id": "20"
+                    },
+                    {
+                        "label": "21",
+                        "action_id": "21"
+                    },
+                    {
+                        "label": "22",
+                        "action_id": "22"
+                    },
+                    {
+                        "label": "23",
+                        "action_id": "23"
+                    }
+                  ]
+                },
+                {
+                  "type": "select",
+                  "placeholder": "Select Minute",
+                  "multiselect": false,
+                  "trigger_on_input": false,
+                  "options": [
+                    {
+                      "label": "00",
+                      "action_id": "00"
+                    },
+                    {
+                      "label": "01",
+                      "action_id": "01"
+                    },
+                    {
+                      "label": "02",
+                      "action_id": "02"
+                    },
+                    {
+                        "label": "03",
+                        "action_id": "03"
+                    },
+                    {
+                        "label": "04",
+                        "action_id": "04"
+                    },
+                    {
+                        "label": "05",
+                        "action_id": "05"
+                    },
+                    {
+                        "label": "06",
+                        "action_id": "06"
+                    },
+                    {
+                        "label": "07",
+                        "action_id": "07"
+                    },
+                    {
+                        "label": "08",
+                        "action_id": "08"
+                    },
+                    {
+                        "label": "09",
+                        "action_id": "09"
+                    },
+                    {
+                        "label": "10",
+                        "action_id": "10"
+                    },
+                    {
+                        "label": "11",
+                        "action_id": "11"
+                    },
+                    {
+                        "label": "12",
+                        "action_id": "12"
+                    },
+                    {
+                        "label": "13",
+                        "action_id": "13"
+                    },
+                    {
+                        "label": "14",
+                        "action_id": "14"
+                    },
+                    {
+                        "label": "15",
+                        "action_id": "15"
+                    },
+                    {
+                        "label": "16",
+                        "action_id": "16"
+                    },
+                    {
+                        "label": "17",
+                        "action_id": "17"
+                    },
+                    {
+                        "label": "18",
+                        "action_id": "18"
+                    },
+                    {
+                        "label": "19",
+                        "action_id": "19"
+                    },
+                    {
+                        "label": "20",
+                        "action_id": "20"
+                    },
+                    {
+                        "label": "21",
+                        "action_id": "21"
+                    },
+                    {
+                        "label": "22",
+                        "action_id": "22"
+                    },
+                    {
+                        "label": "23",
+                        "action_id": "23"
+                    },
+                    {
+                        "label": "24",
+                        "action_id": "24"
+                    },
+                    {
+                        "label": "25",
+                        "action_id": "25"
+                    },
+                    {
+                        "label": "26",
+                        "action_id": "26"
+                    },
+                    {
+                        "label": "27",
+                        "action_id": "27"
+                    },
+                    {
+                        "label": "28",
+                        "action_id": "28"
+                    },
+                    {
+                        "label": "29",
+                        "action_id": "29"
+                    },
+                    {
+                        "label": "30",
+                        "action_id": "30"
+                    },
+                    {
+                        "label": "31",
+                        "action_id": "31"
+                    },
+                    {
+                        "label": "32",
+                        "action_id": "32"
+                    },
+                    {
+                        "label": "33",
+                        "action_id": "33"
+                    },
+                    {
+                        "label": "34",
+                        "action_id": "34"
+                    },
+                    {
+                        "label": "35",
+                        "action_id": "35"
+                    },
+                    {
+                        "label": "36",
+                        "action_id": "36"
+                    },
+                    {
+                        "label": "37",
+                        "action_id": "37"
+                    },
+                    {
+                        "label": "38",
+                        "action_id": "38"
+                    },
+                    {
+                        "label": "39",
+                        "action_id": "39"
+                    },
+                    {
+                        "label": "40",
+                        "action_id": "40"
+                    },
+                    {
+                        "label": "41",
+                        "action_id": "41"
+                    },
+                    {
+                        "label": "42",
+                        "action_id": "42"
+                    },
+                    {
+                        "label": "43",
+                        "action_id": "43"
+                    },
+                    {
+                        "label": "44",
+                        "action_id": "44"
+                    },
+                    {
+                        "label": "45",
+                        "action_id": "45"
+                    },
+                    {
+                        "label": "46",
+                        "action_id": "46"
+                    },
+                    {
+                        "label": "47",
+                        "action_id": "47"
+                    },
+                    {
+                        "label": "48",
+                        "action_id": "48"
+                    },
+                    {
+                        "label": "49",
+                        "action_id": "49"
+                    },
+                    {
+                        "label": "50",
+                        "action_id": "50"
+                    },
+                    {
+                        "label": "51",
+                        "action_id": "51"
+                    },
+                    {
+                        "label": "52",
+                        "action_id": "52"
+                    },
+                    {
+                        "label": "53",
+                        "action_id": "53"
+                    },
+                    {
+                        "label": "54",
+                        "action_id": "54"
+                    },
+                    {
+                        "label": "55",
+                        "action_id": "55"
+                    },
+                    {
+                        "label": "56",
+                        "action_id": "56"
+                    },
+                    {
+                        "label": "57",
+                        "action_id": "57"
+                    },
+                    {
+                        "label": "58",
+                        "action_id": "58"
+                    },
+                    {
+                        "label": "59",
+                        "action_id": "59"
+                    }
+                  ]
+                },
+                {
+                  "type": "datepicker",
+                  "placeholder": "Start Date",
+                  "action_id": "a60389c6-2517-4388-8f56-da1aaf9c7b28"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Select End Date & Time :"
+            },
+            {
+                "type": "container",
+                "elements": [
+                  {
+                    "type": "select",
+                    "placeholder": "Select Hour",
+                    "multiselect": false,
+                    "trigger_on_input": false,
+                    "options": [
+                        {
+                          "label": "00",
+                          "action_id": "00"
+                        },
+                        {
+                          "label": "01",
+                          "action_id": "01"
+                        },
+                        {
+                          "label": "02",
+                          "action_id": "02"
+                        },
+                        {
+                            "label": "03",
+                            "action_id": "03"
+                        },
+                        {
+                            "label": "04",
+                            "action_id": "04"
+                        },
+                        {
+                            "label": "05",
+                            "action_id": "05"
+                        },
+                        {
+                            "label": "06",
+                            "action_id": "06"
+                        },
+                        {
+                            "label": "07",
+                            "action_id": "07"
+                        },
+                        {
+                            "label": "08",
+                            "action_id": "08"
+                        },
+                        {
+                            "label": "09",
+                            "action_id": "09"
+                        },
+                        {
+                            "label": "10",
+                            "action_id": "10"
+                        },
+                        {
+                            "label": "11",
+                            "action_id": "11"
+                        },
+                        {
+                            "label": "12",
+                            "action_id": "12"
+                        },
+                        {
+                            "label": "13",
+                            "action_id": "13"
+                        },
+                        {
+                            "label": "14",
+                            "action_id": "14"
+                        },
+                        {
+                            "label": "15",
+                            "action_id": "15"
+                        },
+                        {
+                            "label": "16",
+                            "action_id": "16"
+                        },
+                        {
+                            "label": "17",
+                            "action_id": "17"
+                        },
+                        {
+                            "label": "18",
+                            "action_id": "18"
+                        },
+                        {
+                            "label": "19",
+                            "action_id": "19"
+                        },
+                        {
+                            "label": "20",
+                            "action_id": "20"
+                        },
+                        {
+                            "label": "21",
+                            "action_id": "21"
+                        },
+                        {
+                            "label": "22",
+                            "action_id": "22"
+                        },
+                        {
+                            "label": "23",
+                            "action_id": "23"
+                        }
+                      ]
+                  },
+                  {
+                    "type": "select",
+                    "placeholder": "Select Minute",
+                    "multiselect": false,
+                    "trigger_on_input": false,
+                    "options": [
+                        {
+                          "label": "00",
+                          "action_id": "00"
+                        },
+                        {
+                          "label": "01",
+                          "action_id": "01"
+                        },
+                        {
+                          "label": "02",
+                          "action_id": "02"
+                        },
+                        {
+                            "label": "03",
+                            "action_id": "03"
+                        },
+                        {
+                            "label": "04",
+                            "action_id": "04"
+                        },
+                        {
+                            "label": "05",
+                            "action_id": "05"
+                        },
+                        {
+                            "label": "06",
+                            "action_id": "06"
+                        },
+                        {
+                            "label": "07",
+                            "action_id": "07"
+                        },
+                        {
+                            "label": "08",
+                            "action_id": "08"
+                        },
+                        {
+                            "label": "09",
+                            "action_id": "09"
+                        },
+                        {
+                            "label": "10",
+                            "action_id": "10"
+                        },
+                        {
+                            "label": "11",
+                            "action_id": "11"
+                        },
+                        {
+                            "label": "12",
+                            "action_id": "12"
+                        },
+                        {
+                            "label": "13",
+                            "action_id": "13"
+                        },
+                        {
+                            "label": "14",
+                            "action_id": "14"
+                        },
+                        {
+                            "label": "15",
+                            "action_id": "15"
+                        },
+                        {
+                            "label": "16",
+                            "action_id": "16"
+                        },
+                        {
+                            "label": "17",
+                            "action_id": "17"
+                        },
+                        {
+                            "label": "18",
+                            "action_id": "18"
+                        },
+                        {
+                            "label": "19",
+                            "action_id": "19"
+                        },
+                        {
+                            "label": "20",
+                            "action_id": "20"
+                        },
+                        {
+                            "label": "21",
+                            "action_id": "21"
+                        },
+                        {
+                            "label": "22",
+                            "action_id": "22"
+                        },
+                        {
+                            "label": "23",
+                            "action_id": "23"
+                        },
+                        {
+                            "label": "24",
+                            "action_id": "24"
+                        },
+                        {
+                            "label": "25",
+                            "action_id": "25"
+                        },
+                        {
+                            "label": "26",
+                            "action_id": "26"
+                        },
+                        {
+                            "label": "27",
+                            "action_id": "27"
+                        },
+                        {
+                            "label": "28",
+                            "action_id": "28"
+                        },
+                        {
+                            "label": "29",
+                            "action_id": "29"
+                        },
+                        {
+                            "label": "30",
+                            "action_id": "30"
+                        },
+                        {
+                            "label": "31",
+                            "action_id": "31"
+                        },
+                        {
+                            "label": "32",
+                            "action_id": "32"
+                        },
+                        {
+                            "label": "33",
+                            "action_id": "33"
+                        },
+                        {
+                            "label": "34",
+                            "action_id": "34"
+                        },
+                        {
+                            "label": "35",
+                            "action_id": "35"
+                        },
+                        {
+                            "label": "36",
+                            "action_id": "36"
+                        },
+                        {
+                            "label": "37",
+                            "action_id": "37"
+                        },
+                        {
+                            "label": "38",
+                            "action_id": "38"
+                        },
+                        {
+                            "label": "39",
+                            "action_id": "39"
+                        },
+                        {
+                            "label": "40",
+                            "action_id": "40"
+                        },
+                        {
+                            "label": "41",
+                            "action_id": "41"
+                        },
+                        {
+                            "label": "42",
+                            "action_id": "42"
+                        },
+                        {
+                            "label": "43",
+                            "action_id": "43"
+                        },
+                        {
+                            "label": "44",
+                            "action_id": "44"
+                        },
+                        {
+                            "label": "45",
+                            "action_id": "45"
+                        },
+                        {
+                            "label": "46",
+                            "action_id": "46"
+                        },
+                        {
+                            "label": "47",
+                            "action_id": "47"
+                        },
+                        {
+                            "label": "48",
+                            "action_id": "48"
+                        },
+                        {
+                            "label": "49",
+                            "action_id": "49"
+                        },
+                        {
+                            "label": "50",
+                            "action_id": "50"
+                        },
+                        {
+                            "label": "51",
+                            "action_id": "51"
+                        },
+                        {
+                            "label": "52",
+                            "action_id": "52"
+                        },
+                        {
+                            "label": "53",
+                            "action_id": "53"
+                        },
+                        {
+                            "label": "54",
+                            "action_id": "54"
+                        },
+                        {
+                            "label": "55",
+                            "action_id": "55"
+                        },
+                        {
+                            "label": "56",
+                            "action_id": "56"
+                        },
+                        {
+                            "label": "57",
+                            "action_id": "57"
+                        },
+                        {
+                            "label": "58",
+                            "action_id": "58"
+                        },
+                        {
+                            "label": "59",
+                            "action_id": "59"
+                        }
+                      ]
+                  },
+                  {
+                    "type": "datepicker",
+                    "placeholder": "End Date",
+                    "action_id": "a60389c6-2517-4388-8f56-da1aaf9c7b28"
+                  }
+                ]
+              },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter Organizer Name :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "Organizer Name",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter Event Description :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "Description",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter Event URL :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "Event URL",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter External Account Id :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "External Account Id",
+              "trigger_on_input": false
+            },
+            {
+              "type": "text",
+              "markdown": false,
+              "content": "Enter External Event Id :"
+            },
+            {
+              "type": "text_input",
+              "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+              "placeholder": "External Event Id",
+              "trigger_on_input": false
+            },
+            {
+              "type": "button",
+              "label": "Create Event",
+              "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+              "style": "primary_filled"
+            }
+          ]
+        }
+      }
+}

@@ -1,0 +1,97 @@
+{
+  "callback_type": "views.initialize",
+  "new_view": {
+    "view_id": "right_panel_list",
+    "header": {
+      "title": "Jira",
+      "context_menu": [
+        {
+          "type": "button",
+          "label": "Create issue",
+          "action_id": "create-jira-issue",
+          "style": "primary_filled"
+        },
+        {
+          "type": "button",
+          "label": "Logout",
+          "action_id": "logout-jira-app",
+          "style": "primary_filled"
+        }
+      ],
+      "buttons": [
+        {
+          "type": "button",
+          "action_id": "refresh-jira-list",
+          "icon": {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/reset.png",
+            "alt": "Header button icon"
+          }
+        }
+      ]
+    },
+    "body": {
+      "elements": [
+        {
+          "type": "select",
+          "placeholder": "Project",
+          "multiselect": false,
+          "trigger_on_input": true,
+          "options": [
+            {
+              "label": "Option 1",
+              "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+            },
+            {
+              "label": "Option 2",
+              "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "elements": [
+            {
+              "type": "select",
+              "placeholder": "Status",
+              "multiselect": false,
+              "trigger_on_input": true,
+              "options": [
+                {
+                  "label": "Option 1",
+                  "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908"
+                },
+                {
+                  "label": "Option 2",
+                  "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839"
+                }
+              ]
+            },
+            {
+              "type": "select",
+              "placeholder": "Priority",
+              "multiselect": false,
+              "trigger_on_input": true,
+              "options": [
+                {
+                  "label": "Option 1",
+                  "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+                },
+                {
+                  "label": "Option 2",
+                  "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text_input",
+          "action_id": "search-issue-input",
+          "placeholder": "Search by title",
+          "trigger_on_input": true
+        }
+      ]
+    }
+  }
+}

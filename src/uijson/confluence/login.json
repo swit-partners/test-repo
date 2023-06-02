@@ -1,0 +1,23 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "confluence-login-open",
+        "header": {
+            "title": "Please login to Confluence account"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "button",
+                    "label": "Login With Confluence",
+                    "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+                    "static_action": {
+                        "action_type": "open_oauth_popup",
+                        "link_url": "https://swtio-bck-dev.dvconsulting.org/confluence-swit-user-login"
+                    },
+                    "style": "primary_filled"
+                }
+            ]
+        }
+    }
+}

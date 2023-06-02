@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "checkeurlerror",
+        "header": {
+            "title": "Connect a space or page"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Please enter your subscribe url or please select atleast one notification event"
+                }
+            ]
+        }
+    }
+}

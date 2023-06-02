@@ -1,0 +1,19 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "error",
+        "header": {
+            "title": "Oops!",
+            "subtitle": ""
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": true,
+                    "content": "Some error occurred. Please try again!"
+                }
+            ]
+        }
+    }
+}

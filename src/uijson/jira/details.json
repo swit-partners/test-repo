@@ -1,0 +1,64 @@
+{
+  "callback_type": "views.open",
+  "new_view": {
+    "view_id": "jira_issue_details",
+    "header": {
+      "title": "View Jira Issue",
+      "buttons": [
+        {
+          "type": "button",
+          "icon": {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/jira-icon.png",
+            "alt": "Header button icon"
+          },
+          "static_action": {
+            "action_type": "open_link",
+            "link_url": "https://swit.io"
+          }
+        }
+      ]
+    },
+    "body": {
+      "elements": [
+        {
+          "type": "info_card",
+          "draggable": true,
+          "items": [
+            {
+              "label": "category 1",
+              "text": {
+                "type": "text",
+                "content": ""
+              }
+            },
+            {
+              "label": "category 2",
+              "text": {
+                "type": "text",
+                "content": ""
+              }
+            },
+            {
+              "label": "category 3",
+              "text": {
+                "type": "text",
+                "content": ""
+              }
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View more details",
+          "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+          "style": "primary_filled",
+          "static_action": {
+            "action_type": "open_link",
+            "link_url": ""
+          }
+        }
+      ]
+    }
+  }
+}

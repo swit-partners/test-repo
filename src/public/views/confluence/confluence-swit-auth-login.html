@@ -1,0 +1,20 @@
+<div style="text-align:center;">
+    <a id="myCheck" style="visibility:hidden"
+        href="https://openapi.swit.io/oauth/authorize?access_type=offline&client_id=kI3HzcOJ4CQggSkF7J3lfySh9nNKSQhd&hd=%2A&prompt=consent&redirect_uri=https%3A%2F%2Fswtio-bck-dev.dvconsulting.org%2Fconfluence-swit-callback-proceed&response_type=code&scope=channel%3Aread+channel%3Awrite+message%3Aread+message%3Awrite+project%3Aread+project%3Awrite+task%3Aread+task%3Awrite+user%3Aread+user%3Awrite+workspace%3Aread+workspace%3Awrite">
+        <button>Authorize Swit User Update</button>
+    </a>
+</div>
+
+
+<script>
+    var url = new URL(window.location.href);
+    var close = url.searchParams.get("close");
+    console.log(close);
+    if (close) {
+        // open(location, '_self').close();
+    } else {
+        document.getElementById("myCheck").click();
+    }
+
+
+</script>

@@ -1,0 +1,82 @@
+{
+  "callback_type": "views.initialize",
+  "new_view": {
+    "view_id": "right_panel_list",
+    "header": {
+      "title": "Confluence",
+      "subtitle": "",
+      "context_menu": [
+        {
+          "type": "button",
+          "label": "Logout",
+          "action_id": "Panel Logout Button-action_id",
+          "style": "primary_filled"
+        }
+      ],
+      "buttons": [
+        {
+          "type": "button",
+          "action_id": "Reload-search",
+          "icon": {
+            "type": "image",
+            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/reset.png",
+            "alt": "Header button icon"
+          }
+        }
+      ]
+    },
+    "body": {
+      "elements": [
+        {
+          "type": "select",
+          "placeholder": "Select Space",
+          "multiselect": false,
+          "trigger_on_input": true,
+          "options": []
+        },
+        {
+          "type": "container",
+          "elements": [
+            {
+              "type": "select",
+              "placeholder": "Select Category",
+              "multiselect": false,
+              "trigger_on_input": true,
+              "options": [
+                {
+                  "label": "Page",
+                  "action_id": "Page-type-action_id"
+                },
+                {
+                  "label": "BlogPost",
+                  "action_id": "Blogpost-type-action_id"
+                },
+                {
+                  "label": "Comment",
+                  "action_id": "Comment-type-action_id"
+                },
+                {
+                  "label": "Attachment",
+                  "action_id": "Attachment-type-action_id"
+                }
+              ]
+            },
+            {
+              "type": "select",
+              "placeholder": "Select Label",
+              "multiselect": false,
+              "trigger_on_input": true,
+              "options": []
+            }
+          ]
+        },
+        {
+          "type": "text_input",
+          "action_id": "Search",
+          "placeholder": "Search...",
+          "trigger_on_input": true
+        }
+      ]
+    }
+  }
+}

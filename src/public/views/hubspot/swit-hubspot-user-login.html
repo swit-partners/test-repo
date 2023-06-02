@@ -1,0 +1,20 @@
+<div style="text-align:center;">
+    <a id="myCheck" style="visibility:hidden"
+        href="https://openapi.swit.io/oauth/authorize?access_type=offline&client_id=aDmLTSWb6RCKeLCTxLnmLERW3G4l3NrJ&hd=%2A&prompt=consent&redirect_uri=https%3A%2F%2Fswtio-bck-dev.dvconsulting.org%2Fhubspot-login&response_type=code&scope=approval%3Aread+approval%3Awrite+channel%3Aread+channel%3Awrite+idea%3Aread+idea%3Awrite+message%3Aread+message%3Awrite+presence%3Aread+presence%3Awrite+project%3Aread+project%3Awrite+store%3Awrite+task%3Aread+task%3Awrite+user%3Aread+user%3Awrite+workspace%3Aread+workspace%3Awrite">
+        <button>Authorize Swit User Update</button>
+
+    </a>
+</div>
+
+<script>
+
+    var url = new URL(window.location.href);
+    var close = url.searchParams.get("close");
+    console.log(close);
+    if (close) {
+        // open(location, '_self').close();
+    } else {
+        document.getElementById("myCheck").click();
+    }
+
+</script>

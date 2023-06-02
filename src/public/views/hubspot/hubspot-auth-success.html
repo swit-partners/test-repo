@@ -1,0 +1,195 @@
+<!-- <html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="body d-md-flex align-items-center justify-content-between">
+            <div class="box-1 mt-md-0 mt-5">
+                <img src="https://sada.com/wp-content/uploads/2023/02/Swit.png" class="" alt="">
+                <span class="glyphicon glyphicon-plus"></span>
+                <img src="data:image/png;base64,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">
+            </div>
+            <div class=" box-2 d-flex flex-column h-100">
+                <div class="mt-5">
+                    <p class="mb-1 h-1">HubSpot Account Authorized Successfully!</p>
+                    <div class="d-flex flex-column ">
+                        <p class="text-danger mb-2">Thanks!.</p><br><br>
+                     
+                        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.opener=null; window.close(); return false;" >Close</button>
+
+                    </div>
+                </div>
+            </div>
+            <span class="fas fa-times"></span>
+        </div>
+    </div>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif
+        }
+
+        .container {
+            margin: 50px auto;
+        }
+
+        .body {
+            position: relative;
+            width: 720px;
+            height: 440px;
+            margin: 20px auto;
+            border: 1px solid #dddd;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .box-1 img {
+            width: 100%;
+            height: 47%;
+            object-fit: cover;
+        }
+
+        .box-2 {
+            border-left: 1px solid #f1f1f1;
+                padding: 18px;
+        }
+
+        .box-1,
+        .box-2 {
+            width: 50%;
+        }
+
+        .h-1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .text-muted {
+            font-size: 14px;
+        }
+
+
+       
+
+        .footer.text-muted {
+            font-size: 10px;
+        }
+
+        .fas.fa-times {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: #f3cff379;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fas.fa-times:hover {
+            color: #ff0000;
+        }
+
+        @media (max-width:767px) {
+            body {
+                padding: 10px;
+            }
+
+            .body {
+                width: 100%;
+                height: 100%;
+            }
+
+            .box-1 {
+                width: 100%;
+            }
+
+            .box-2 {
+                width: 100%;
+                height: 440px;
+              
+            }
+        }
+    </style>
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Authorization successfully.</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        .page h1 {
+            text-align: center;
+            inline-size: 500px;
+            height: 50px;
+        }
+
+        .page p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .page button {
+            margin-top: 15px;
+            padding: 7px 150px;
+            border-radius: 5px;
+            border: 1px solid blue;
+            background-color: #fff;
+            font-size: 14px;
+            color: blue;
+            cursor: pointer;
+        }
+
+        .page button:hover {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <img src="assets/image/hubspot-authorized-success.png" alt="HubSpot Logo" />
+        <h1>HubSpot Account Authorized Successfully!</h1>
+        <p>Thank you!</p>
+        <button id="closeEvent" type="button" class="btn btn-primary btn-lg btn-block"
+            onclick="window.opener=null; window.close(); return false;">Close</button>
+    </div>
+</body>
+<script>
+    document.getElementById("closeEvent").click()
+</script>
+</html>

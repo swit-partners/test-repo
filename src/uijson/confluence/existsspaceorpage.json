@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "spaceorpageexists",
+        "header": {
+            "title": "Connect a space or page"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "A subscription already exist for this page or space."
+                }
+            ]
+        }
+    }
+}

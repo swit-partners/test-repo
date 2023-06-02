@@ -1,0 +1,56 @@
+{
+    "callback_type": "attachments.share.channel",
+    "attachments": [
+        {
+            "state": "string",
+            "header": {
+                "app_id": "230411095943411RS4A1",
+                "title": "",
+                "subtitle": "",
+                "buttons": [
+                    {
+                        "type": "button",
+                        "icon": {
+                            "type": "image",
+                            "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/jira-right-panel.png",
+                            "alt": "Header button icon",
+                            "shape": "rectangular"
+                        },
+                        "static_action": {
+                            "action_type": "open_link",
+                            "link_url": "https://atlassian.com"
+                        }
+                    }
+                ]
+            },
+            "body": {
+                "elements": [
+                    {
+                        "type": "info_card",
+                        "draggable": false,
+                        "items": [
+                            {
+                                "label": "key",
+                                "text": {
+                                    "type": "text",
+                                    "markdown": false,
+                                    "content": "value"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "buttons": [
+                  {
+                    "type": "button",
+                    "label": "View details",
+                    "style": "primary_filled",
+                    "action_id": "attachmentDetails"
+                  }
+                ]
+              }
+        }
+    ]
+  }

@@ -1,0 +1,169 @@
+{
+    "callback_type": "views.open",
+    "new_view":{
+      "view_id": "builder_test",
+      "header": {
+        "title": "Create Jira issue",
+        "buttons": [
+          {
+            "type": "button",
+            "icon": {
+              "type": "image",
+              "image_url": "https://swtio-bck-dev.dvconsulting.org/assets/image/jira-icon.png",
+              "alt": "Header button icon"
+            },
+            "static_action": {
+              "action_type": "open_link",
+              "link_url": "https://www.atlassian.com"
+            }
+          }
+        ]
+      },
+      "body": {
+        "elements": [
+         
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Which project would you like to create an issue in? *"
+          },
+          {
+            "type": "select",
+            "placeholder": "Select Project",
+            "multiselect": false,
+            "trigger_on_input": true,
+            "options": [
+              {
+                "label": "Option 1",
+                "action_id": "option 1"
+              },
+              {
+                "label": "Option 2",
+                "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839",
+                "static_action": {
+                  "action_type": "open_link",
+                  "link_url": "https://swit.io"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Select issue type *"
+          },
+          {
+            "type": "select",
+            "placeholder": "Select issue type",
+            "multiselect": false,
+            "trigger_on_input": false,
+            "options": [
+              {
+                "label": "Option 1",
+                "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+              },
+              {
+                "label": "Option 2",
+                "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839",
+                "static_action": {
+                  "action_type": "open_link",
+                  "link_url": "https://swit.io"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Summary *"
+          },
+          {
+            "type": "text_input",
+            "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+            "placeholder": "Type anything...",
+            "trigger_on_input": false
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Description "
+          },
+          {
+            "type": "text_input",
+            "action_id": "435cd98a-1c04-409e-9230-d654ba44b0ca",
+            "placeholder": "Type description...",
+            "trigger_on_input": false
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Select an Assignee"
+          },
+          {
+            "type": "select",
+            "placeholder": "Select an item",
+            "multiselect": false,
+            "trigger_on_input": false,
+            "options": [
+              {
+                "label": "Option 1",
+                "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+              },
+              {
+                "label": "Option 2",
+                "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839",
+                "static_action": {
+                  "action_type": "open_link",
+                  "link_url": "https://swit.io"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Select Labels"
+          },
+          {
+            "type": "select",
+            "placeholder": "Select an item",
+            "multiselect": true,
+            "trigger_on_input": false,
+            "options": [
+              {
+                "label": "Option 1",
+                "action_id": "eb5c968b-f4fb-4abe-8605-db83d6fd908a"
+              },
+              {
+                "label": "Option 2",
+                "action_id": "8992c582-7b37-4df5-be65-fb46d22f4839",
+                "static_action": {
+                  "action_type": "open_link",
+                  "link_url": "https://swit.io"
+                }
+              }
+            ]
+          },
+
+          {
+            "type": "text",
+            "markdown": false,
+            "content": "Due Date"
+          },
+          {
+            "type": "datepicker",
+            "placeholder": "YYYY-MM-DD",
+            "action_id": "duedate",
+            "trigger_on_input": false
+          },
+          {
+            "type": "button",
+            "label": "Submit",
+            "action_id": "eb5c968b-f4fb-4abe-8605-5b8ad6fe908a",
+            "style": "primary_filled"
+          }
+        ]
+      }
+    }
+   
+}

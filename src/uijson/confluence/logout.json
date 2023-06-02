@@ -1,0 +1,36 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "Logout",
+        "header": {
+            "title": "Logout"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": true,
+                    "content": "Are you sure you want to Logout?"
+                  }
+            ]
+        },
+        "footer": {
+            "buttons": [
+                {
+                    "type": "button",
+                    "label": "Cancel",
+                    "style": "primary",
+                    "static_action": {
+                        "action_type": "close_view"
+                    }
+                },
+                {
+                    "type": "button",
+                    "label": "Logout",
+                    "style": "primary_filled",
+                    "action_id": "Logout Button-action_id"
+                }
+            ]
+        }
+    }
+}

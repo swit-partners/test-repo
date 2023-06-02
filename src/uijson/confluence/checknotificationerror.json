@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "checkenotificationerror",
+        "header": {
+            "title": "Edit a space or page"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Please select atleast one notification event"
+                }
+            ]
+        }
+    }
+}

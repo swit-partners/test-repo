@@ -1,0 +1,39 @@
+{
+    "key": "webhooks-app",
+    "name": "Webhooks tutorial",
+    "description": "This app tests how webhooks work.",
+    "scopes": [
+        "READ",
+        "ACT_AS_USER"
+    ],
+    "baseUrl": "{{localBaseUrl}}",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed"
+    },
+    "apiMigrations": {
+        "signed-install": true
+    },
+    "modules": {
+            "webhooks": [
+                {
+                    "event": "page_created",
+                    "url": "/page_created"
+                },
+                {
+                    "event": "page_updated",
+                    "url": "/page_updated"
+                },
+                {
+                    "event": "blog_created",
+                    "url": "/blog_created"
+                },
+                {
+                    "event": "comment_created",
+                    "url": "/comment_created"
+                }
+            ]
+    }
+}

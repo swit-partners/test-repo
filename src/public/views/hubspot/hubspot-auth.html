@@ -1,0 +1,126 @@
+<!-- <div style="text-align:center;">
+    <a
+        href="https://app.hubspot.com/oauth/authorize?client_id=b2c27f74-70dc-4b20-91bd-b9148f23cfb2&redirect_uri=https://swtio-bck-dev.dvconsulting.org/hubspot-auth-proceed&scope=content%20crm.lists.read%20crm.objects.contacts.read%20crm.objects.contacts.write%20crm.objects.marketing_events.read%20crm.objects.marketing_events.write%20crm.schemas.custom.read%20crm.objects.custom.read%20crm.objects.custom.write%20crm.objects.companies.write%20crm.schemas.contacts.read%20crm.lists.write%20crm.objects.companies.read%20crm.objects.deals.read%20crm.objects.deals.write%20crm.schemas.companies.read%20crm.schemas.companies.write%20crm.schemas.contacts.write%20crm.schemas.deals.read%20crm.schemas.deals.write%20external_integrations.forms.access&state=<%=user_id%>">
+        <button>Authorize HubSpot User</button>
+    </a>
+</div> -->
+
+<!-- <html>
+
+<head>
+    <title>HubSpot OAuth 2.0</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page h1 {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .page button {
+            margin: 60px;
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid #000;
+            background-color: #FF7A59;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .page button:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HubSpot_Logo.svg/1280px-HubSpot_Logo.svg.png"
+            alt="HubSpot Logo" width="400" height="180">
+        <h1>
+            Please click the button below to authorize your HubSpot user.
+        </h1>
+        <a
+            href="https://app.hubspot.com/oauth/authorize?client_id=b2c27f74-70dc-4b20-91bd-b9148f23cfb2&redirect_uri=https://swtio-bck-dev.dvconsulting.org/hubspot-auth-proceed&scope=content%20crm.lists.read%20crm.objects.contacts.read%20crm.objects.contacts.write%20crm.objects.marketing_events.read%20crm.objects.marketing_events.write%20crm.schemas.custom.read%20crm.objects.custom.read%20crm.objects.custom.write%20crm.objects.companies.write%20crm.schemas.contacts.read%20crm.lists.write%20crm.objects.companies.read%20crm.objects.deals.read%20crm.objects.deals.write%20crm.schemas.companies.read%20crm.schemas.companies.write%20crm.schemas.contacts.write%20crm.schemas.deals.read%20crm.schemas.deals.write%20external_integrations.forms.access&state=<%=user_id%>">
+            <button>Authorize HubSpot User</button>
+        </a>
+    </div>
+</body>
+
+</html> -->
+
+
+<html>
+
+<head>
+    <title>HubSpot OAuth 2.0</title>
+    <script>
+        window.location.replace('https://app.hubspot.com/oauth/authorize?client_id=b2c27f74-70dc-4b20-91bd-b9148f23cfb2&redirect_uri=https://swtio-bck-dev.dvconsulting.org/hubspot-auth-proceed&scope=content%20tickets%20crm.lists.read%20crm.objects.contacts.read%20crm.objects.contacts.write%20crm.objects.marketing_events.read%20crm.objects.marketing_events.write%20crm.schemas.custom.read%20crm.objects.custom.read%20crm.objects.custom.write%20crm.objects.companies.write%20crm.schemas.contacts.read%20crm.lists.write%20crm.objects.companies.read%20crm.objects.deals.read%20crm.objects.deals.write%20crm.schemas.companies.read%20crm.schemas.companies.write%20crm.schemas.contacts.write%20crm.schemas.deals.read%20crm.schemas.deals.write%20external_integrations.forms.access&state=<%=user_id%>');
+    </script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        .page img {
+            margin-top: 60px;
+        }
+
+        .page h1 {
+            text-align: center;
+            margin-top: 30px;
+            inline-size: 500px;
+        }
+
+        .page button {
+            margin: 20px;
+            padding: 7px 28px;
+            border-radius: 5px;
+            border: 1px solid blue;
+            background-color: #fff;
+            font-size: 14px;
+            color: blue;
+            cursor: pointer;
+        }
+
+        .page button:hover {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HubSpot_Logo.svg/1280px-HubSpot_Logo.svg.png"
+            alt="HubSpot Logo" width="500" height="150">
+        <h1>
+            Please click the button below to authorize your HubSpot user.
+        </h1>
+        <a
+            id="closeEvent" href="https://app.hubspot.com/oauth/authorize?client_id=b2c27f74-70dc-4b20-91bd-b9148f23cfb2&redirect_uri=https://swtio-bck-dev.dvconsulting.org/hubspot-auth-proceed&scope=content%20tickets%20crm.lists.read%20crm.objects.contacts.read%20crm.objects.contacts.write%20crm.objects.marketing_events.read%20crm.objects.marketing_events.write%20crm.schemas.custom.read%20crm.objects.custom.read%20crm.objects.custom.write%20crm.objects.companies.write%20crm.schemas.contacts.read%20crm.lists.write%20crm.objects.companies.read%20crm.objects.deals.read%20crm.objects.deals.write%20crm.schemas.companies.read%20crm.schemas.companies.write%20crm.schemas.contacts.write%20crm.schemas.deals.read%20crm.schemas.deals.write%20external_integrations.forms.access&state=<%=user_id%>">
+            <button>Authorize HubSpot User</button>
+        </a>
+    </div>
+</body>
+<script>
+    document.getElementById("closeEvent").click()
+</script>
+</html>

@@ -1,0 +1,41 @@
+{
+  "callback_type": "views.open",
+  "new_view":{
+    "view_id": "clickDetail",
+    "header": {
+      "title": "",
+      "buttons": [
+        {
+          "type": "button",
+          "icon": {
+            "type": "image",
+            "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+            "alt": "Header button icon"
+          },
+          "static_action": {
+            "action_type": "open_link",
+            "link_url": "https://hubspot.com"
+          }
+        }
+      ]
+    },
+    "body": {
+      "elements": [
+        {
+          "type": "info_card",
+          "draggable": false,
+          "items": [
+            {
+              "label": "key",
+              "text": {
+                "type": "text",
+                "markdown": false,
+                "content": "value"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

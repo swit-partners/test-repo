@@ -1,0 +1,18 @@
+{
+  "callback_type": "views.open",
+   "new_view": {
+        "view_id": "alreadydelete",
+        "header": {
+            "title": "Delete item"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Already deleted this item"
+                }
+            ]
+        }
+    }
+}

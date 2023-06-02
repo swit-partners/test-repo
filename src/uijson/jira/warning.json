@@ -1,0 +1,19 @@
+{
+    "callback_type": "views.open",
+    "new_view": {
+        "view_id": "builder_test",
+        "header": {
+            "title": "Jira App",
+            "subtitle": "Content Not found!"
+        },
+        "body": {
+            "elements": [
+                {
+                    "type": "text",
+                    "markdown": false,
+                    "content": "Content for your request not found / Your required action cannot be performed..."
+                }
+            ]
+        }
+    }
+}
