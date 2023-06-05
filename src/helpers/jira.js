@@ -549,7 +549,7 @@ module.exports = {
             jiraListRenderJson.new_view.body.elements[0].options = options1;
         }
 
-
+        console.log(projectListRes?.values, '------------projectListRes?.values------------');
         //-----------------set issue status--------------------------------------
 
         let statusListRes = await this.getIssueStatusList(userData);
